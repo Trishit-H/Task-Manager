@@ -1,0 +1,249 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+    --primary: #1aac83;
+    --error: #e7195a;
+}
+
+body {
+    background: #f2f2f2;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+header {
+    background: #2c3e50;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+nav.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .login-signup a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.navbar button {
+    background-color: #2c3e50;
+    font-size: 18px;
+    border: 2px solid wheat;
+    padding: 3px 10px;
+    color: wheat;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.navbar button:hover {
+    background-color: #1a2530;
+}
+
+.logout span {
+    color: wheat;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.pages {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* homepage */
+.Home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todos {
+    width: 600px;
+}
+
+.todo-details {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.todo-details h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.todo-details .description {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #2c2c2c;
+}
+
+.todo-details .status {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.todo-details .status span {
+    color: rgb(247, 67, 67);
+}
+
+.todo-details .deadline {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #555;
+}
+
+.todo-details .added-on {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.todo-details .deadline span {
+    color: rgb(247, 67, 67);
+}
+
+.todo-details .todo-btn {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo-details .mark-todo {
+    background-color: rgb(17, 160, 36);
+}
+
+.todo-details .mark-todo:hover {
+    background-color: rgb(14, 128, 29);
+}
+
+.todo-details .edit-todo {
+    background-color: rgb(22, 99, 199);
+}
+
+.todo-details .edit-todo:hover {
+    background-color: rgb(20, 87, 175);
+}
+
+.todo-details .delete-todo {
+    background-color: rgb(233, 40, 40);
+}
+
+.todo-details .delete-todo:hover {
+    background-color: rgb(218, 32, 32);
+}
+
+/* .todo-details span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    padding: 6px;
+    border-radius: 50%;
+    color: #333;
+} */
+
+/* new workout form */
+.add-todo-form {
+    padding: 0 10px 0 10px;
+    margin-top: 20px;
+}
+
+.add-todo-form label,
+.add-todo-form input {
+    display: block;
+}
+
+.add-todo-form h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.add-todo-form label {
+    font-size: 1.2rem;
+}
+
+.add-todo-form input {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 400px;
+}
+
+.add-todo-form textarea {
+    font-size: 1.2rem;
+    width: 400px;
+    height: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.add-todo-form button {
+    background-color: rgb(17, 160, 36);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid #dd3232;
+    color: #dd3232;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+input.error {
+    border: 1px solid #dd3232;
+}
+
+textarea.error {
+    border: 1px solid #dd3232;
+}
